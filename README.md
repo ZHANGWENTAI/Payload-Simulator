@@ -1,8 +1,8 @@
-# Payload-Simulator
+# 🔩Payload-Simulator
 
 根据某张图片模拟出 TiDB 的负载，使得用 Key Visualizer 组件观测该负载时，可以呈现出该图片的图案
 
-## Usage
+## 🔑Usage
 利用本地 Mac 或者单机 Linux 环境快速部署 TiDB 集群。可以体验 TiDB 集群的基本架构，以及 TiDB、TiKV、PD、监控等基础组件的运行。
 **在本项目目录下：**
 1. 下载并安装 TiUP。
@@ -19,10 +19,10 @@
 5. 运行脚本文件 simulator.py
 6. 在 Dashboard 页面的流量可视化界面下等待至少 200 min，可看到结果。
 
-## Result
+## 😄Result
 
 
-## Reference
+## 📘Reference
 [使用TiUP部署TiDB集群](https://pingcap.com/docs-cn/stable/quick-start-with-tidb/#%E7%AC%AC%E4%BA%8C%E7%A7%8D%E4%BD%BF%E7%94%A8-tiup-playground-%E5%BF%AB%E9%80%9F%E9%83%A8%E7%BD%B2%E6%9C%AC%E5%9C%B0%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83)
 
 [Key Visualizer 流量可视化](https://pingcap.com/docs-cn/stable/key-visualizer-monitoring-tool/#key-visualizer-%E6%B5%81%E9%87%8F%E5%8F%AF%E8%A7%86%E5%8C%96)
