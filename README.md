@@ -24,7 +24,7 @@
 ## 😄Result
 原图
 
-![avatar](https://github.com/ZHANGWENTAI/Payload-Simulator/offer.jepg)
+![avatar](https://github.com/ZHANGWENTAI/Payload-Simulator/blob/master/offer.jpeg)
 
 结果
 
