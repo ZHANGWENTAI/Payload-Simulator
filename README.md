@@ -18,8 +18,8 @@
 `$ tiup playground --db.config config.toml`
 
 4. 通过 http://127.0.0.1:2379/dashboard 访问 TiDB 的 Dashboard 页面，默认用户名为 root，密码为空。
-5. 运行脚本文件 simulator.py
-6. 在 Dashboard 页面的流量可视化界面下等待至少 200 min，可看到结果。
+5. 运行脚本文件 simulator.py 或 simulator_m.py ，后者是使用多线程的版本。
+6. 在 Dashboard 页面的流量可视化界面下等待至少 200 min，可看到结果。等待时间与图片的宽度有关，如果想缩短时间，可以把脚本文件中的变量 width 改为更小的数值。
 
 ## 😄Result
 原图
@@ -31,10 +31,10 @@
 ![avatar](https://github.com/ZHANGWENTAI/Payload-Simulator/blob/master/result.png)
 
 ## 📘Reference
-[使用TiUP部署TiDB集群](https://pingcap.com/docs-cn/stable/quick-start-with-tidb/#%E7%AC%AC%E4%BA%8C%E7%A7%8D%E4%BD%BF%E7%94%A8-tiup-playground-%E5%BF%AB%E9%80%9F%E9%83%A8%E7%BD%B2%E6%9C%AC%E5%9C%B0%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83)
+[使用 TiUP 部署 TiDB 集群](https://pingcap.com/docs-cn/stable/quick-start-with-tidb/#%E7%AC%AC%E4%BA%8C%E7%A7%8D%E4%BD%BF%E7%94%A8-tiup-playground-%E5%BF%AB%E9%80%9F%E9%83%A8%E7%BD%B2%E6%9C%AC%E5%9C%B0%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83)
 
 [Key Visualizer 流量可视化](https://pingcap.com/docs-cn/stable/key-visualizer-monitoring-tool/#key-visualizer-%E6%B5%81%E9%87%8F%E5%8F%AF%E8%A7%86%E5%8C%96)
 
 [TiDB 悲观事务模型常见问题](https://pingcap.com/docs-cn/stable/pessimistic-transaction/#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
 
-[关于TiDB配置文件](https://github.com/pingcap/tidb/blob/master/config/config.toml.example)
+[TiDB 配置文件样例](https://github.com/pingcap/tidb/blob/master/config/config.toml.example)
